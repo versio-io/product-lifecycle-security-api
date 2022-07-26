@@ -1,0 +1,35 @@
+# Required tool set
+# =================
+# 1. Visual Code IDE: https://code.visualstudio.com/
+# 2. REST Clint Plugin: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+# 
+# Swagger REST API documentation
+# 
+@API_KEY=<your-api-key>
+
+### Get all vendors
+
+GET https://api.versio.io/gov/1.0/vendors 
+Content-Type: application/json
+Authorization: apiToken {{API_KEY}}
+
+### Get all products of Apache
+GET https://api.versio.io/gov/1.0/vendors/Apache/products 
+Content-Type: application/json
+Authorization: apiToken {{API_KEY}}
+
+### Get data about Tomcat product
+GET https://api.versio.io/gov/1.0/vendors/Apache/products/Tomcat 
+Content-Type: application/json
+Authorization: apiToken {{API_KEY}}
+
+### Get all versions of Apache Tomcat
+GET https://api.versio.io/gov/1.0/vendors/Apache/products/Tomcat/versions
+Content-Type: application/json
+Authorization: apiToken {{API_KEY}}
+
+
+### Verify lifecycle and security state of Apache Tomcat version 10.0.22
+GET https://api.versio.io/gov/1.0/vendors/Apache/products/Tomcat/versions/10.0.22 
+Content-Type: application/json
+Authorization: apiToken {{API_KEY}}
