@@ -11,7 +11,7 @@ A Swagger REST API documentation you found here: https://doc.versio.io/product-l
 
 ## How you can use it
 
-### Request your personal API token
+### Request API token
 
 To try out the API, you need a personalized API token. You can request it here: https://www.versio.io/free-trial.html
 
