@@ -11,6 +11,10 @@ A Swagger REST API documentation you found here: https://doc.versio.io/product-l
 
 ## How you can use it
 
+### Request your personal API token
+
+To try out the API, you need a personalized API token. You can request it here: https://www.versio.io/free-trial.html
+
 ### REST API client
 
 The easiest way is to use the REST API via a REST API client. Below you can see an example REST API calls (see [rest-api-examples.http](rest-api-examples.http), please add your personal API token) with the Visual Code IDE:
