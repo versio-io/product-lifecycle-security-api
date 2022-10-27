@@ -34,3 +34,11 @@ For all Microsoft Excel fans :-) we have provided a corresponding template with 
 
 
 ![](https://www.versio.io/img/use-case/product-governance-api/versio.io-product-compliance-ms-excel-integration-big.gif)
+
+
+## User interface visualization
+
+In the Versio.io user interface, we use this API to assess products and technologies for their lifecycle and security status:
+
+![](https://www.versio.io/img/use-case/product-governance-api/versio.io-apache-tomcat-governance-check.png)
+
